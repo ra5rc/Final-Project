@@ -26,3 +26,7 @@ analyze1.combo()\
 analyze1.facecount()\
 
 # API Description
+<u> Die Class <u>
+
+
+# Manifest

@@ -230,14 +230,23 @@ uni: dataframe of combination counts
 ```
 
 # Manifest
-Demo Package:
-\_\_init\_\_\
-dieclass.py\
-gameclass.py\
-analyzerclass.py\
-ProjectTest.py\
-
-carlo_output.txt\
+.gitignore\
+LICENSE\
+README.md\
+Scenario_Demo.py\
+dieclass.ipynb\
+gameclass.ipynb\
+analyzerclass.ipynb\
 FinalProjectSubmission.ipynb\
-setup.py\
+sgb-words.txt\
+carlo_output.txt\
+setup.py
+
+Demo Package:
+  \_\_init\_\_\
+  dieclass.py\
+  gameclass.py\
+  analyzerclass.py\
+  ProjectTest.py
+
 

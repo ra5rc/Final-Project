@@ -28,8 +28,31 @@ analyze1.facecount()\
 # API Description
 
 ### Die Class \
+ """\
+    A die has N sides, or “faces”, and W "weights",\
+    stored in a dataframe that can be rolled to select\ 
+    a face.\ 
+  
+    Attributes:\
+    A die object with assigned faces and weights.\
+    
+    Methods:\
+    __init__\
+    change_w\
+    rolldie\
+    display\
+   
+    """\
 ##### Methods \
 __init__\
+ """\
+   Initialize the Die from faces and weights.\ 
+       
+   Input Arguments:
+   n must be an array of floats, integers or strings.
+   w can be an array or value of floats or integers. 
+   If no weight is specified, w will default to 1.0.
+ """
 change_w\
 rolldie\
 display\

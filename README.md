@@ -26,7 +26,21 @@ analyze1.combo()\
 analyze1.facecount()\
 
 # API Description
-<u> Die Class <u>
+
+#### Die Class \
+###### Methods \
+
+###### Attributes \
+
+
+#### Game Class \
+###### Methods \
+###### Attributes \
+
+
+#### Analyzer Class \
+###### Methods \
+###### Attributes \
 
 
 # Manifest

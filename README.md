@@ -1,4 +1,4 @@
-# MonteCarlo-Project
+# Final-Project
 Monte Carlo Simulator DS 5100 Project
 
 # Metadata
@@ -6,31 +6,38 @@ Monte Carlo Simulator by Rhea Agarwal
 
 # Synopsis
 ### Installing Package
-git clone 
+git clone https://github.com/ra5rc/Final-Project \
 git install . 
 
 ### Importing Package
+from Demo.dieclass import Die \  
+from Demo.gameclass import Game \
+from Demo.analyzerclass import Analyzer 
 
 ### Die Class Objects and Methods
-die1=Die([4,2,5])\
-die2=Die([3,4,5])\
-die1.change_w(2,3)\
-die1.display()\
-die2.rolldie(5)\
-die2.display()
 
+``` python
+die1=Die([4,2,5]) # Initializing the die
+die2=Die([3,4,5])
+die1.change_w(2,3) # Changing the weight of face 2 to 3 from default 1
+die1.display() # Displaying die contents
+die2.rolldie(5) # Random sample of 5 numbers from faces
+die2.display() # Outputting results
+```
 ### Game Class Objects and Methods
-game1=Game([die1,die2])\
-game1.play(10)\
-game1.show()
-
+```python
+game1=Game([die1,die2]) # Initializing the game
+game1.play(10) # Rolling each die in the game 10 times
+game1.show() # Displaying the results
+```
 
 ### Analyzer Class Objects and Methods
-analyze1=Analyzer(game1)\
-analyze1.jackpot()\
-analyze1.combo()\
-analyze1.facecount()
-
+```python
+analyze1=Analyzer(game1) # Initializing the analyzer object
+analyze1.jackpot() # Computing number of rolls where all faces are equal
+analyze1.combo() # Computing number of each unique combination
+analyze1.facecount() #Computing the number of each face occurrence for every roll
+```
 # API Description
 
 ### Die Class 

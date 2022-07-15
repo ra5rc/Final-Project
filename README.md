@@ -221,7 +221,7 @@ facecount()
      
 ```
 
-##### Attributes \
+##### Attributes 
 ```
 gameobj: game object
 gameobjdf: dataframe of game object roll results

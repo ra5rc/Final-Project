@@ -29,6 +29,7 @@ analyze1.facecount()\
 
 ### Die Class \
  """
+    Description:
     A die has N sides, or “faces”, and W "weights",
     stored in a dataframe that can be rolled to select 
     a face.

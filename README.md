@@ -47,7 +47,7 @@ show\
 
 ### Analyzer Class \
 ##### Methods \
-__init__
+__init__\
 jackpot\
 combo\
 facecount\

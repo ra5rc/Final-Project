@@ -10,7 +10,7 @@ git clone https://github.com/ra5rc/Final-Project \
 git install . 
 
 ### Importing Package
-from Demo.dieclass import Die \  
+from Demo.dieclass import Die  
 from Demo.gameclass import Game \
 from Demo.analyzerclass import Analyzer 
 
@@ -161,7 +161,6 @@ show()
 ##### Attributes 
 ```
 games: a list of die objects
-
 ```
 ### Analyzer Class 
 ```

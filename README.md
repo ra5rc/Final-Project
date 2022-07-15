@@ -106,7 +106,10 @@ display()
         
 ```
 ##### Attributes 
-
+```
+n: array of floats, integers, or strings 
+w: array of floats or integers 
+```
 ### Game Class 
 ```
     Description:
@@ -156,8 +159,10 @@ show()
      
 ```
 ##### Attributes 
+```
+games: a list of die objects
 
-
+```
 ### Analyzer Class 
 ```
     Description:
@@ -217,6 +222,13 @@ facecount()
 ```
 
 ##### Attributes \
+```
+gameobj: game object
+gameobjdf: dataframe of game object roll results
+jackresultdf: dataframe of jackpot results
+uni: dataframe of combination counts
+
+```
 
 # Manifest
 Demo Package:

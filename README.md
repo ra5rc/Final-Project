@@ -27,20 +27,32 @@ analyze1.facecount()\
 
 # API Description
 
-#### Die Class \
-###### Methods \
+### Die Class \
+##### Methods \
+__init__\
+change_w\
+rolldie\
+display\
 
-###### Attributes \
+##### Attributes \
+
+### Game Class \
+##### Methods \
+__init__\
+play\
+show\
+
+##### Attributes \
 
 
-#### Game Class \
-###### Methods \
-###### Attributes \
+### Analyzer Class \
+##### Methods \
+__init__
+jackpot\
+combo\
+facecount\
 
-
-#### Analyzer Class \
-###### Methods \
-###### Attributes \
+##### Attributes \
 
 
 # Manifest

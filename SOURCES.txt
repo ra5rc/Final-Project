@@ -1,0 +1,15 @@
+README.md
+setup.py
+Demo/ProjectTest.py
+Demo/__init__.py
+Demo/analyzerclass.py
+Demo/dieclass.py
+Demo/gameclass.py
+Demo.egg-info/PKG-INFO
+Demo.egg-info/SOURCES.txt
+Demo.egg-info/dependency_links.txt
+Demo.egg-info/top_level.txt
+Demo.egg-info/.ipynb_checkpoints/PKG-INFO-checkpoint
+Demo.egg-info/.ipynb_checkpoints/SOURCES-checkpoint.txt
+Demo.egg-info/.ipynb_checkpoints/dependency_links-checkpoint.txt
+Demo.egg-info/.ipynb_checkpoints/top_level-checkpoint.txt
